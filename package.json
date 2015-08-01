@@ -1,0 +1,42 @@
+{
+  "name": "song-parody",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ckolderup/song-parody",
+  "author": {
+    "name": "Casey Kolderup",
+    "email": "casey@kolderup.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ckolderup/song-parody.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ckolderup/song-parody/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ckolderup/song-parody/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "ent": "2.2.0",
+    "inflection": "~1.2.6",
+    "request": "~2.44.0",
+    "rita": "^1.0.951",
+    "twit": "~1.1.19",
+    "underscore": "~1.5.1",
+    "underscore.deferred": "~0.4.0",
+    "wordfilter": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-notify": "~0.2.18"
+  },
+  "keywords": []
+}
